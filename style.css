@@ -1,0 +1,241 @@
+*, ::after, ::before { box-sizing: border-box; }
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 5px solid #a2d8ce;
+}
+
+a {
+    display: block;
+    max-width: 220px;
+    margin: 27px auto;
+}
+
+a img {
+    display: block;
+    width: 100%;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button,
+input[type='number'] {
+    margin: 0;
+    appearance: none;
+}
+
+.container {
+    max-width: 880px;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.amortization_header h1,
+.amortization_header p {
+    padding: 0;
+    margin: 0;
+}
+
+.amortization_header {
+    margin: 30px 0 20px;
+}
+
+.amortization_header p {
+    padding-top: 4px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.amortization_header h1 {
+    font-size: 38px;
+}
+
+.amortization_calc_form ul {
+    list-style: none outside;
+    margin: 0;
+    padding: 0;
+}
+
+.amortization_calc_form li {
+    padding-bottom: 14px;
+}
+
+.amortization_calc_form span {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 7px;
+}
+
+.amortization_calc_form input {
+    border-radius: 4px;
+    padding: 12px 15px;
+    border: 1px solid #b5b5b5;
+    background: #fefefe;
+    font-size: 16px;
+    width: 100%;
+    font-family: inherit;
+}
+
+.amortization_calc_form select {
+    font-family: sans-serif;
+    border: 1px solid #b5b5b5;
+    color: #222;
+    font-size: 16px;
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    padding: 0 1rem;
+    background: #fff;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%0A%3Csvg%20width%3D%2240px%22%20height%3D%2228px%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke%3D%22%2354545A%22%20stroke-width%3D%222%22%20d%3D%22M28.457%2012L23%2017.457%2017.343%2012%22%20transform%3D%22translate%28-7%2C%200%29%22%20%2F%3E%0A%3C%2Fsvg%3E");
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.calc_payment_btn {
+    display: block;
+    margin: 20px auto 30px;
+    padding: 16px 28px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #3b4e4f;
+    color: #fff;
+    border: 0;
+    font-size: 19px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.amort_group {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.amort_group>div {
+    flex: 1;
+}
+
+.amortization_calc_form {
+    max-width: 380px;
+}
+
+.amortization_summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    background: #a2d8ce17;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #a2d8ce;
+    box-shadow: 0px 4px 0px #a2d8ce;
+    padding: 32px 36px 56px;
+}
+
+.amortization_summary .summ_head h2 {
+    color: rgb(42, 42, 51);
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.summ_head span {
+    color: rgb(42, 42, 51);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    margin: 0px 0px 16px;
+}
+
+.summ_field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+}
+
+.amortization_summary .summ_field:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0
+}
+
+.summ_head {
+    margin-bottom: 25px;
+}
+
+.summ_field span:last-child {
+    font-weight: bold;
+    color: hsl(183 14% 40% / 1);
+}
+
+.container table {
+    display: table;
+    width: 100%;
+    background: none;
+    text-align: left;
+    border: 0px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    font-variant-numeric: tabular-nums;
+}
+
+td {
+    border-bottom: 1px solid #dddddd;
+}
+
+tr:nth-child(even) {
+    background: #f5f5f5;
+}
+
+td,
+th {
+    padding: 11px 30px;
+}
+
+.amortization_breakdown_header {
+    padding-top: 45px;
+}
+
+.amortization_breakdown_header h2 {
+    margin: 0 0 -9px;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .amort_group {
+        display: block;
+    }
+
+    .amortization_calc_form {
+        max-width: none;
+    }
+
+    td,
+    th {
+        padding: 11px 11px;
+        font-size: 14px;
+    }
+}
