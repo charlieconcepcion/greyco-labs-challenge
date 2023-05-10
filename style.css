@@ -227,8 +227,11 @@ th {
     padding: 0;
 }
 
-.loan_amount_input, .interest_rate_input {
+.amortization_calc_form .loan_amount_input, 
+.amortization_calc_form .interest_rate_input {
     position: relative;
+    padding-bottom: 0;
+    font-weight: normal;
 }
 
 .loan_amount_input::before,
