@@ -8,3 +8,8 @@ In this challenge, you will create a frontend for a [Loan Amortization](https://
 - Created a clean responsive UI (HTML/CSS)
 - Incorporated the style guide by greystone.com to maintain consistency throughout the design.
 - Emphasized simplicity and ease of use in form design, ensuring optimal usability for iOS platforms.
+
+
+# Items outstanding
+- Create project w/ React
+- Hook up to API (https://lending-api.azurewebsites.net/)
