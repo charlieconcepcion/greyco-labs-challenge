@@ -6,5 +6,5 @@ In this challenge, you will create a frontend for a [Loan Amortization](https://
 
 # Items completed
 - Created a clean responsive UI (HTML/CSS)
-- Utilized the style color guide from greystone.com
-- Forms are simple and big for iOS usability
+- Incorporated the style guide by greystone.com to maintain consistency throughout the design.
+- Emphasized simplicity and ease of use in form design, ensuring optimal usability for iOS platforms.
