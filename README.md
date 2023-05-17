@@ -10,3 +10,10 @@ In this challenge, you will create a frontend for a [Loan Amortization](https://
 - Emphasized simplicity and ease of use in form design, ensuring optimal usability for iOS/Android platforms.
 - Create project w/ React
 - Hook up to API (https://lending-api.azurewebsites.net/)
+
+# Code docs
+- API logic is located in src/App.js
+
+# Instructions to run project
+- run npm start via terminal
+- load up w/ http://localhost:3000
